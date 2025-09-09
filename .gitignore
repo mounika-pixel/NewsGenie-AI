@@ -4,11 +4,21 @@ __pycache__/
 *.pyo
 *.pyd
 db.sqlite3
+*.egg-info/
+__pypackages__/
+.ipynb_checkpoints
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
 # === Virtual Environment ===
 .venv/
 env/
 venv/
+ENV/
+env.bak/
+venv.bak/
 
 # === Media / Uploads ===
 media/
@@ -23,6 +33,16 @@ uploads/
 *.pot
 *.tmp
 *.swp
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py.cover
+.hypothesis/
+cover/
 
 # === Environment Variables ===
 .env
@@ -33,7 +53,24 @@ uploads/
 .idea/
 *.sublime-workspace
 *.sublime-project
+.spyderproject
+.spyproject
+.ropeproject
 
 # === OS-specific ===
 .DS_Store
 Thumbs.db
+
+# === Other Tools ===
+.installed.cfg
+.pyre/
+.pytype/
+cython_debug/
+.cursorignore
+.cursorindexingignore
+.ruff_cache/
+site/
+.abstra/
+marimo/_static/
+marimo/_lsp/
+__marimo__/
